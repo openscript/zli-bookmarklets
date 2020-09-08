@@ -1,0 +1,11 @@
+{
+  "name": "zli-bookmarklets",
+  "version": "0.0.1",
+  "description": "A collection of bookmarklets to do administration work at ZLI more efficient.",
+  "repository": "https://github.com/openscript/zli-bookmarklets",
+  "author": "Robin <1105080+openscript@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.44.1"
+  }
+}
