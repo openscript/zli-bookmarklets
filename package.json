@@ -5,7 +5,15 @@
   "repository": "https://github.com/openscript/zli-bookmarklets",
   "author": "Robin <1105080+openscript@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.ts"
+  },
   "devDependencies": {
-    "webpack": "^4.44.1"
+    "@types/node": "^14.10.0",
+    "@types/webpack": "^4.41.22",
+    "bookmarklet-wrapper-webpack-plugin": "^1.0.1",
+    "ts-node": "^9.0.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   }
 }
