@@ -4,7 +4,6 @@
         "target": "ES6",
         "lib": ["ES6", "dom"],
         "strict": true,
-        "isolatedModules": true,
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
         "moduleResolution": "Node",

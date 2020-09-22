@@ -1,1 +1,1 @@
-alert('joho')
+alert('joho');
