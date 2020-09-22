@@ -1,6 +1,6 @@
 import webpack from "webpack";
 import path from "path";
-import CopyWebpackPlugin from 'copy-webpack-plugin';
+import BookmarkletPagePlugin from './plugins/bookmarkletPagePlugin';
 
 const BookmarkletWrapperPlugin = require('bookmarklet-wrapper-webpack-plugin');
 
@@ -14,10 +14,8 @@ const config: webpack.Configuration = {
     },
     plugins: [
         new BookmarkletWrapperPlugin(),
-        new CopyWebpackPlugin({
-            patterns: [
-                {from: 'public', to: '.'}
-            ]
+        new BookmarkletPagePlugin({
+            template: path.resolve(__dirname, 'public', 'index.html')
         })
     ]
 }
